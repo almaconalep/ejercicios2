@@ -24,5 +24,6 @@ print("DESCIFRANDO PALABRAS SECRETAS")
 print("-"*30)
 palabra_secreta="8-2^u-j=u@i!o[s&e<c?e>r+y#a&h(o_n"
 respuesta=palabra_secreta[::-1] #asigna cadena invertida
-print(respuesta[0::2])
+respuesta2=respuesta[0::2] #de principio al fin con avance de 2 caracteres, eliminando caracteres basura
+print(respuesta2)
 print(respuesta2[0:2:1]+" "+respuesta2[2:5:1]+" "+respuesta2[5:11:1]+" "+respuesta2[11:15:1]+" "+respuesta2[15:17:1])
